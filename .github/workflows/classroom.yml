@@ -4,7 +4,7 @@ name: Autograding Tests
 - repository_dispatch
 permissions:
   checks: write
-  actions: read
+  actions: read 
   contents: read
 jobs:
   run-autograding-tests:
